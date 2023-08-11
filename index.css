@@ -1,0 +1,176 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    font-family:system-ui, sans-serif;
+   
+}
+header{
+    background-color: white;
+    display:flex;
+    
+}
+#font {
+    
+    margin: 20px 60px;
+    font-size: 30px;
+
+   
+}
+#font i{
+    margin: auto;
+}
+.header-item{
+    align-items: center;
+  
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+ 
+}
+
+.header-item li{
+   font-size: 20px;
+    display: inline-block;
+    color:#101010;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px 30px;
+    padding: 5px;
+      
+}
+.main-div1{
+  
+    background-image: url('img1.jpg');
+    height: 100vh;
+    width: 100vw;
+    
+    background-size: cover;
+}
+.main-div1 img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.lorem-div{
+ 
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(154, 34, 102);
+    color:white;
+    margin:12% 15%;
+    opacity: 0.6;
+}
+
+.bottm-lorem{
+    
+    background-image: linear-gradient(to right,rgb(255, 15, 175),rgb(249, 249, 162));
+    padding:40px;
+    
+}
+.footer-div{
+    background-image: linear-gradient(to right,rgb(255, 15, 175),rgb(249, 249, 162));
+}
+.footer-div h1{
+    text-align: center;
+
+}
+.section{
+
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius:20%;
+   
+
+}
+
+.div1{
+    background-image:url('./img4.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin:10px auto;
+    border-top-right-radius: 20%;
+}
+.div2{
+    background-image:url('img2.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin:10px auto;
+    border-top-right-radius: 20%;
+}
+.div3{
+    background-image:url('img3.jpg');
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin:10px auto;
+    border-top-right-radius: 20%;
+}
+#ordernow{
+    color: white;
+}
+.burger{
+    background-image:url('img4.jpg');
+    background-size: cover;
+}
+.section p{
+    text-align: center;
+
+}
+.section h2{
+    text-align: center;
+}
+.main-sec{
+   
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-button{
+    padding:50px;
+    text-align: center;
+
+}
+.footer-button h1{
+   
+    font-size: 30px;
+    width: 160px;
+
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 30px;
+   background-color: #f0f8ff;
+}
+
+
+
+@media only screen and (max-width:400px){
+
+    *{
+        margin:0px;
+        padding:0px;
+    }
+    header{
+       
+        margin-right: 0px;
+    }
+    #font{
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .header-item li{
+        display: block;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .main-sec{
+     display: block;
+    
+    }
+
+}
